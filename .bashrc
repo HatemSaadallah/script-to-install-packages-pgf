@@ -117,3 +117,4 @@ if ! shopt -oq posix; then
 fi
 
 alias python=python3
+alias pip=pip3

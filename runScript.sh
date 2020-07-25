@@ -92,6 +92,20 @@ else
     echo "Failed Installing Tkinter"
 fi
 
+echo '....'
+sleep 1
+echo 'Installing Slack Desktop'
+
+sudo dpkg --install packages/slack-desktop-4.7.0-amd64.deb
+
+if [ $? -eq 0 ]; then
+    echo "...."	
+    echo "Successfully Installed Slack Desktop"
+else
+    echo "...."	
+    echo "Failed Installing Slack Desktop"
+fi
+
 echo "...."
 sleep 1
 echo "Done Installing All the requirments"

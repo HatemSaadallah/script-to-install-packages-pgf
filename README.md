@@ -2,7 +2,7 @@
 
 <h4>Open the terminal and add the following: </h4>
 <br />
-<p> <ul> <li>`git clone https://github.com/HatemSaadallah/script-to-install-packages-pgf.git`</li> <li>`cd script-to-install-packages-pgf`
+<p> <ul> <li>```git clone https://github.com/HatemSaadallah/script-to-install-packages-pgf.git```</li> <li>`cd script-to-install-packages-pgf`
   </li> <li>`./runScript.sh`</li></ul> </p>
 
 <p>The script will begin running, it might ask for the root password, enter it, and let the magic do its work</p>
